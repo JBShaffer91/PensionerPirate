@@ -1,0 +1,94 @@
+.navbar {
+    background: url('../../public/images/Anacapa.jpg') center center/cover no-repeat;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 1rem;
+  }
+  
+  .navbar-logo {
+    height: 50px;
+  }
+  
+  .navbar-hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 1rem;
+  }
+  
+  .navbar-menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu a:hover {
+    color: crimson;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-content {
+      justify-content: space-between;
+    }
+  
+    .navbar-title {
+      display: none;
+    }
+  
+    .navbar-logo {
+      height: 40px;
+    }
+  
+    .navbar-hamburger {
+      display: block;
+    }
+  
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      background-color: black;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 1rem 0;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+    }
+  
+    .navbar-menu li {
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+  }
+  
