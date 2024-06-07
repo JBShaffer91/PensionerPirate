@@ -1,0 +1,47 @@
+.about-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-intro, .about-mission, .about-story, .about-values, .about-team, .about-cta {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .about-intro h1, .about-mission h2, .about-story h2, .about-values h2, .about-team h2, .about-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-intro p, .about-mission p, .about-story p, .about-team p, .about-cta p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  .about-values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-values li {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .about-cta {
+    background: crimson;
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  
+  .about-cta h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .about-cta p {
+    margin-bottom: 1.5rem;
+  }
+  

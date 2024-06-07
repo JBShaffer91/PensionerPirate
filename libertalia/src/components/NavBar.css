@@ -72,23 +72,23 @@
     }
   
     .navbar-menu {
-      display: none;
-      flex-direction: column;
-      background-color: black;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      padding: 1rem 0;
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+      }
+    
+      .navbar-menu.open {
+        display: flex;
+      }
+    
+      .navbar-menu li {
+        margin: 0.5rem 0;
+        text-align: center;
+      }
     }
-  
-    .navbar-menu.open {
-      display: flex;
-    }
-  
-    .navbar-menu li {
-      margin: 0.5rem 0;
-      text-align: center;
-    }
-  }
   
